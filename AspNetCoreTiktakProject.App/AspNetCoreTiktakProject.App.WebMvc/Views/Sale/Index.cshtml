@@ -1,0 +1,156 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutTiktak.cshtml";
+}
+@model List< CarPropertyViewModel>
+
+<style>
+
+    .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+    }
+
+    .custom-pink-button {
+        background-color: white !important; /* Canlı pembe arka plan rengi */
+        color: black !important; /* Metin rengi */
+        border: 1px solid white !important; /* Kenarlık rengi ve kalınlığı */
+        border-radius: 10px !important;
+        transition: background-color 0.3s ease; /* Geçiş efekti ekle */
+    }
+
+    .text-pink {
+        color: hotpink !important;
+    }
+
+    .text-white {
+        color: white !important;
+    }
+
+    .custom-pink-button:hover {
+        color: #e82454 !important; /* Üzerine gelindiğinde yazı rengini siyah yap */
+    }
+
+    .logo {
+        width: 25px; /* Genişlik: 100 piksel */
+    }
+
+    .custom-pink-button-nothovered {
+        background-color: hotpink !important;
+        color: white !important;
+        border: 1px solid hotpink !important;
+        border-radius: 10px !important;
+    }
+
+    .background-color-hotpink {
+        background-color: #e82454;
+    }
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+var form = document.getElementById('filterForm');
+
+document.getElementById('filterButton').addEventListener('click', function () {
+form.submit();
+});
+});
+</script>
+<div class="container-fluid pt-3">
+    <div class="container pt-5 pb-3">
+        <div class="col-lg-12 col-sm-12 mb-4 yazi-2">
+            <br><br>
+            <div class="background-color-hotpink p-5" style="border-radius: 10px;">
+                <h3 class="text-white text-center mb-4">Filtrele</h3>
+                <form method="post" asp-action="Index" asp-controller="Sale">
+                    <div class="row">
+                        <div class="form-group col-lg-4">
+                        <label for="location"></label>
+                            <select id="location" name="location" class="custom-select px-4" style=" height: 50px; border-radius: 10px">
+                            <option selected disabled>Aracın Konumu</option>
+                            <option value="Beşiktaş">Beşiktaş</option>
+                            <option value="Kadıköy">Kadıköy</option>
+                            <option value="Bakırköy">Bakırköy</option>
+                            <option value="Maltepe">Maltepe</option>
+                        </select>
+                    </div>
+                        <div class="form-group col-lg-4">
+                        <label for="gearType"></label>
+                            <select id="gearType" name="gearType" class="custom-select px-4" style=" height: 50px; border-radius: 10px">
+                            <option selected disabled>Vites Tipi Seçiniz</option>
+                            <option value="Manuel">Manuel</option>
+                            <option value="Otomatik">Otomatik</option>
+                        </select>
+                    </div>
+                        <div class="form-group col-lg-4">
+                        <label for="fuelType"></label>
+                            <select id="fuelType" name="fuelType" class="custom-select px-4" style=" height: 50px; border-radius: 10px">
+                            <option selected disabled>Yakıt Tipi Seçiniz</option>
+                            <option value="Benzin">Benzin</option>
+                            <option value="Dizel">Dizel</option>
+                            <option value="Elektrik">Elektrik</option>
+                        </select>
+                    </div>
+                    <br />
+                        
+                    </div>
+                    <div class="form-group mb-0 mt-2">
+                        <button id="filterButton" type="submit" class="btn custom-pink-button btn-block" style="height: 50px;">Ara</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row align-items-center pb-2 pt-5">
+           
+                @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-sm-6 mb-4 yazi-2">
+                        <div class="card shadow-sm">
+                            <a asp-action="Rent" asp-controller="Sale" asp-route-Id="@item.Id">
+                                <img src="@item.ImageUrl" class="bd-placeholder-img card-img-top" width="70%" height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" /></a>
+                            <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>
+
+                        <div class="card-body d-flex justify-content-between">
+                            <div class="text-center">
+                                <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/bus-seat-top-view.png" alt="bus-seat-top-view" />
+                                <span><small style="font-size: 11px;">@item.TotalPerson Kişi</small></span>
+                            </div>
+                            <div class="text-center">
+                                <i class="fa-solid fa-suitcase-rolling text-dark"></i>
+                                <span><small style="font-size: 11px;">@item.Baggage</small></span>
+                            </div>
+                            <div class="text-center">
+                                <i class="fa-solid fa-gas-pump text-dark"></i>
+                                <span><small style="font-size: 11px;">@item.FuelType</small></span>
+                            </div>
+                        </div>
+                        <div class="row align-items-left pt-2 py-2">
+                            <div class="col text-right">
+                                <span><p style="font-size:30px; color:#e82454; margin-bottom: 0;">@item.MinutePrice TL /dk</p></span>
+                            </div>
+                            <div class="col">
+                                <form asp-action="Rent" asp-controller="Sale" method="post">
+                                    <input type="hidden" name="carId" value="@item.Id" />
+                                    <button type="submit" class="button" asp-action="Rent" asp-controller="Sale" asp-route-Id="@item.Id" style="font-size: 20px;">Kirala</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                
+                }
+            </div>
+        
+        </div>
+    </div>
+  

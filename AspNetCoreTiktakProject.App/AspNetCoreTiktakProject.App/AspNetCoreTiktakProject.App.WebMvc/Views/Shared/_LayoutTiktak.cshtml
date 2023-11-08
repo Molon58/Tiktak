@@ -1,0 +1,170 @@
+﻿
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tiktak - Car Rental HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/Templete/car-rental-html-template/templib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/Templete/car-rental-html-template/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/Templete/car-rental-html-template/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="~/Templete/car-rental-html-template/css/style.css" rel="stylesheet">
+
+    <style>
+        .image-2 {
+            position: relative;
+            background-image: url('/Templete/car-rental-html-template/img/who-are-we.jpg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="position-relative" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg navbar-dark py-3 py-lg-0 pl-3 pl-lg-5" style="background-color: #e82454;">
+                <a href="" class="navbar-brand">
+                    <h1 class="display-4 mb-1 ana">tiktak</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a asp-action="Index" asp-controller="Home" class="nav-item nav-link">Anasayfa</a>
+                        <a asp-action="About" asp-controller="Home" class="nav-item nav-link">Hakkımızda</a>
+                        <a asp-action="Index" asp-controller="Sale" class="nav-item nav-link">Araçlar</a>
+                        <a asp-action="Contact" asp-controller="Home" class="nav-item nav-link">Contact</a>
+                        @if (User.Identity!.IsAuthenticated)
+                        {
+                            <span class="nav-item nav-link text-white"><b>hoşgeldin @User.Identity.Name</b></span>
+                            <span class="nav-item nav-link">
+                                <i class="fa fa-user text-white"></i>
+                                <a href="Account/Logout" class="text-white">
+                                    Çıkış
+                                </a>
+                            </span>
+                        }
+                        else
+                        {
+                            <span>
+                                <a asp-action="Login" asp-controller="Account" class="nav-item nav-link">Giriş Yap</a>
+                            </span>
+
+                        }
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+    <!-- bg -->
+    <div class="container">
+        <div class=" bg-1">
+            <img class="bg-1" id="nesne" src="~/Templete/car-rental-html-template/img/bg-path-03.svg" alt="">
+        </div>
+    </div>
+    <!-- bg -->
+    <!-- bg2 -->
+    <div class="container">
+        <div class=" bg-2">
+            <img class="bg-2" id="nesne2" src="~/Templete/car-rental-html-template/img/bg-path-02.svg" alt="">
+            
+        </div>
+    </div>
+    <!-- bg2 -->
+   
+
+    <div>
+        <main>
+            @RenderBody()
+        </main>
+    </div>
+    <!-- Footer Start -->
+    <div class="container-fluid py-5 px-sm-3 px-md-5" style="margin-top: 90px; background-color: white;">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-uppercase fot mb-4">İletişim</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt mr-3" style="color: #e82454;"></i>Gen Plaza,Beşiktaş/İstanbul</p>
+                <p class="mb-2"><i class="fa fa-phone-alt mr-3" style="color: #e82454;"></i>08002560000</p>
+                <p><i class="fa fa-envelope mr-3" style="color: #e82454;"></i>info@tiktak.com</p>
+                <h6 class="text-uppercase fot py-2">Bizi takip edin</h6>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-lg btn-lg-square mr-2 text-white" href="#" style="background-color: #e82454;"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-lg-square mr-2 text-white" href="#" style="background-color: #e82454;"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-lg-square mr-2 text-white" href="#" style="background-color: #e82454;"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-lg-square text-white" href="#" style="background-color: #e82454;"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-uppercase fot mb-4">Faydalı Linkler</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-body mb-2" asp-action="PrivatePolicy" asp-controller="Home"><i class="fa fa-angle-right text-white mr-2"></i>Gizlilik Politikası</a>
+                    <a class="text-body mb-2" asp-action="TermAndConditions" asp-controller="Home"><i class="fa fa-angle-right text-white mr-2"></i>Şartlar ve Koşullar</a>
+                    <a class="text-body mb-2" asp-action="ReturnAndRefund" asp-controller="Home"><i class="fa fa-angle-right text-white mr-2"></i>Geri Ödeme ve İade Politikası</a>
+                    <a class="text-body" asp-action="SSS" asp-controller="Home"><i class="fa fa-angle-right text-white mr-2"></i>Yardım ve SSS</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-uppercase mb-4 fot">BÜLTEN</h4>
+                <p class="mb-4">Kampanyalar hakkında daha fazla bilgi için bültene kayıt olabilirsiniz.</p>
+                <div class="w-100 mb-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-dark" style="padding: 25px; background-color: white" placeholder="E-mail">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary text-uppercase px-3" style="background-color: #e82454;">Abone OL</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-4 px-sm-3 px-md-5" style="background-color: #e82454;">
+        <p class="m-3 text-center text-body"><a class="text-white" href="https://htmlcodex.com">Copyright © 2023 Tiktak Limited. Tüm hakları saklıdır.</a></p>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-lg-square back-to-top text-white" style="background-color: #e82454; border: 2px solid white;"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Templete/car-rental-html-template/lib/easing/easing.min.js"></script>
+    <script src="~/Templete/car-rental-html-template/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/Templete/car-rental-html-template/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/Templete/car-rental-html-template/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="~/Templete/car-rental-html-template/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="~/Templete/car-rental-html-template/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+
+    <script src="~/Templete/car-rental-html-template/js/main.js"></script>
+
+    <script src="~/js/site.js"></script>
+</body>
+
+</html>

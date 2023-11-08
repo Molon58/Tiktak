@@ -1,0 +1,119 @@
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.deps.json
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.pdb
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.DataAccess.dll
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.DataAccess.pdb
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.AssemblyReference.cache
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.AssemblyInfoInputs.cache
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.AssemblyInfo.cs
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.CoreCompileInputs.cache
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.CopyComplete
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\refint\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.pdb
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\ref\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.deps.json
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.pdb
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.DataAccess.dll
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.DataAccess.pdb
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.AssemblyReference.cache
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.AssemblyInfoInputs.cache
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.AssemblyInfo.cs
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.CoreCompileInputs.cache
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.CopyComplete
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\refint\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.pdb
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\ref\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.deps.json
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.pdb
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.DataAccess.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.DataAccess.pdb
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.AssemblyReference.cache
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.AssemblyInfoInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.AssemblyInfo.cs
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.CoreCompileInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.CopyComplete
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\refint\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.pdb
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\ref\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.deps.json
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.pdb
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.DataAccess.dll
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.DataAccess.pdb
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.AssemblyReference.cache
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.AssemblyInfoInputs.cache
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.AssemblyInfo.cs
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.CoreCompileInputs.cache
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.CopyComplete
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\refint\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.pdb
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\ref\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.deps.json
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.pdb
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.DataAccess.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.DataAccess.pdb
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.AssemblyReference.cache
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.AssemblyInfoInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.AssemblyInfo.cs
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.CoreCompileInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.CopyComplete
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\refint\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.pdb
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\ref\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.deps.json
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.pdb
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.DataAccess.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.DataAccess.pdb
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.AssemblyReference.cache
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.AssemblyInfoInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.AssemblyInfo.cs
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.CoreCompileInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.CopyComplete
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\refint\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.pdb
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\ref\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.deps.json
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Service.pdb
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.DataAccess.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.DataAccess.pdb
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.AssemblyReference.cache
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.AssemblyInfoInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.AssemblyInfo.cs
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.CoreCompileInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.csproj.CopyComplete
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\refint\AspNetCoreTiktakProject.App.Service.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Service.pdb
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Service\obj\Debug\net7.0\ref\AspNetCoreTiktakProject.App.Service.dll

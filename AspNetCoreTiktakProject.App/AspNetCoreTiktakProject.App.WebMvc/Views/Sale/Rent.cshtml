@@ -1,0 +1,105 @@
+﻿@model CarPropertyViewModel
+@{
+    ViewData["Title"] = "Rent";
+    Layout = "~/Views/Shared/_LayoutTiktak.cshtml";
+}
+
+<script>
+    function validateForm() {
+        // Form doğrulama mantığı burada...
+        var chkTerms = document.getElementById('chkTerms');
+        if (!chkTerms.checked) {
+            alert("Satış Sözleşmesi şartlarını kabul etmelisiniz.");
+            return false; // Formu göndermeyi engelle
+        }
+        return true; // Formu gönder
+    }
+
+    function onSubmitButtonClick() {
+        // Butona tıklandığında yapılacak işlemler burada...
+        // Örneğin, başka bir fonksiyonu çağırabiliiz...
+        // Eğer formun gönderilmesini engellemek istemiyorsak, "return true;" dönebiliriz.
+    }
+</script>
+    <!-- Detail Start -->
+<div class="container-fluid py-5">
+        @if (@ViewBag.DrivedMessage!=null)
+        {
+            <div >
+                <p>@ViewBag.DrivedMessage</p>
+            </div>
+
+        }
+        <div class="container pt-5 ">
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8 mb-5">
+                    
+                        <h1 class="display-4 text-uppercase mb-5 fot text-center">@Model.Brand</h1>
+                        <div class="row mx-n2 mb-3">
+                        <div class="col-sm-6 col-lg-3  px-2 pb-2">
+                                <img class="img-fluid w-100 border:2px" s src="@Model.ImageDetailUrl1" alt="">
+                            </div>
+                    <div class="col-sm-6 col-lg-3  px-2 pb-2">
+                        <img class="img-fluid w-100" src="@Model.ImageDetailUrl2" alt="">
+                            </div>
+                    <div class="col-sm-6 col-lg-3 px-2 pb-2">
+                        <img class="img-fluid w-100" src="@Model.ImageDetailUrl3" alt="">
+                            </div>
+                    <div class="col-sm-6 col-lg-3  px-2 pb-2">
+                        <img class="img-fluid w-100" src="@Model.ImageDetailUrl4" alt="">
+                            </div>
+                        </div>
+                        <div class="row pt-2">
+
+
+                            <div class="col-lg-3 col-6 mb-2">
+                                <i class="fa fa-car  fot mr-2 fot"></i>
+                            <span>@Model.Plaque</span>
+                            </div>
+                            <div class="col-lg-3 col-6 mb-2">
+                                <i class="fa fa-car  fot mr-2 fot"></i>
+                            <span>Model: @Model.Model</span>
+                            </div>
+                             <div class="col-lg-3 col-6 mb-2">
+                                <i class="fa fa-car  fot mr-2 fot"></i>
+                            <span>@Model.FuelType</span>
+                            </div>
+                            <div class="col-lg-3 col-6 mb-2">
+                                <i class="fa fa-car fot mr-2 fot"></i>
+                            <span>@Model.GearType V</span>
+                            </div>
+                            <div class="col-lg-3 col-6 mb-2">
+                                <i class="fa fa-car  fot mr-2 fot"></i>
+                            <span>@Model.TotalPerson Kişilik</span>
+                            </div>
+
+                            <div class="col-lg-3 col-6 mb-2">
+                                <i class="fa fa-car fot mr-2 fot"></i>
+                            <span>@Model.Baggage Bagaj</span>
+                            </div>
+                            <div class="col-lg-3 col-6 mb-2">
+                                <i class="fa fa-car  fot mr-2 fot"></i>
+                                <span> ESP: Var</span>
+                            </div>
+                            <div class="col-lg-3 col-6 mb-2">
+                                <i class="fa fa-car  fot mr-2"></i>
+                                <span>GPS: Var</span>
+                            </div>
+                    <br /><br /><br /><br />
+                            <iframe src="~/Templete/car-rental-html-template/salesp.html" width="750" height="550"></iframe>
+                            <form onsubmit="return validateForm()" asp-controller="Sale" asp-action="RentPost" asp-route-id="@Model.Id">
+                        <div class="form-group wrap-input100 pt-5 py-2">
+                                <input type="checkbox" id="chkTerms" name="chkTerms" required>
+                                <label for="chkTerms">Satış Sözleşmesi şartlarını okudum ve kabul ediyorum.</label>
+                            </div>
+
+                            <button type="submit" class="button">Kirala</button>
+                        </form>
+                  
+                    </div>
+               </div>
+          </div>
+     </div>
+</div>
+

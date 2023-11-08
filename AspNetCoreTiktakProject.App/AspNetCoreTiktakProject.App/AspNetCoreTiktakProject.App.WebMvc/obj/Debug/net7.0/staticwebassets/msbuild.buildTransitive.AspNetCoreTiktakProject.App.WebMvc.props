@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AspNetCoreTiktakProject.App.WebMvc.props" />
+</Project>

@@ -1,0 +1,68 @@
+﻿@model LoginViewModel
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<div class="limiter">
+	<div class="container-login100">
+		<div class="wrap-login100">
+			<div class="login100-pic js-tilt" data-tilt>
+				<img src="~/Login_v1/images/TIKTAK-SON.png" alt="IMG">
+			</div>
+
+			<form asp-controller="Account" asp-action="Login" method="post" class="login100-form validate-form">
+				<input type="hidden" name="ReturnUrl" value="@Model.ReturnUrl" />
+				<div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+				<span class="login100-form-title" style="color:#e82454">
+					Üye Girişi
+				</span>
+
+				<div class="wrap-input100 validate-input">
+					<label asp-for="Email" class="form-label"></label>
+					<input asp-for=Email class="form-control">
+					<span asp-validation-for="Email" class="text-danger"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input">
+					<label asp-for="Password" class="form-label"></label>
+					<input asp-for="Password" class="form-control">
+				</div>
+				<div class="checkbox mb-3 py-3 ml-3">
+					<label asp-for="RememberMe" class="form-label">
+						<input class="form-check-input pt-5" asp-for="RememberMe" />
+						RememberMe
+					</label>
+				</div>
+				<div class="container-login100-form-btn py-3">
+					<button class="login100-form-btn">
+						Giriş Yap
+					</button>
+				</div>
+
+				<div class="p-t-12">
+
+					<a class="txt2 text-left ml-2" asp-action="Index" asp-controller="Home">
+						<i class="fa fa-long-arrow-left m-l-5" aria-hidden="true"></i>
+						Geri Dön
+					</a>
+
+					<a class="txt2 text-right ml-5 pl-4 " asp-action="Register" asp-controller="Account">
+						Kayıt Ol
+						<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+					</a>
+				</div>
+				<br><br>
+			</form>
+		</div>
+	</div>
+</div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}
+
+
+

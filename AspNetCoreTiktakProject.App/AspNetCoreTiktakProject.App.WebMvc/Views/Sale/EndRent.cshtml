@@ -1,0 +1,44 @@
+﻿@model BillViewModel
+
+@{
+    ViewData["Title"] = "EndRent";
+    Layout = "~/Views/Shared/_LayoutTiktak.cshtml";
+}
+
+<div class="container-fluid pt-5">
+ <div class="container pt-5 pb-3">
+<div class="row justify-content-center pt-5">
+    <div class="col-md-4" style="margin:auto">
+            <div class="d-flex justify-content-center">
+            <div class="row">
+            <div class="col-lg-2 col-sm-2"></div>
+            <div class="col-lg-2 col-sm-2"><i class="fa-solid fa-car fa-beat-fade icon-container" style="color: #e82454; font-size: 100px;"></i></div>
+            <div class="col-lg-2 col-sm-2"></div>
+            </div>
+           <br /> 
+         
+        </div>
+        
+        <form asp-action="EndRent"asp-controller="Sale"  method="post">
+            <input type="hidden" asp-for="CarSaleId" value="@ViewBag.CarId" />
+            <div  asp-validation-summary="ModelOnly" class="text-danger" ></div>
+            <div class="form-group">
+                <input asp-for="DestinationPoint" class="form-control" autofocus placeholder="Lütfen Aracı bıraktığınız noktayı yazınız.."/>
+                <span asp-validation-for="DestinationPoint" class="text-danger"></span>
+            </div>
+              <div class="form-group">
+             <button class="button" value="Sürüşü Durdur" type="submit">Sürüşü Durdur</button>
+            </div>
+        </form>
+    </div>
+    </div>
+    </div>
+</div>
+@section Scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+
+
+
+

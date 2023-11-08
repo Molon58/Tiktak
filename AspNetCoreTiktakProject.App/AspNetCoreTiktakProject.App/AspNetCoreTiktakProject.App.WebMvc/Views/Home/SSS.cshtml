@@ -1,0 +1,165 @@
+﻿
+    <style>
+        .image-3 {
+            border: 2px solid black;
+            border-radius: 30px;
+        }
+
+        .custom-button {
+            color: black;
+            background-color: white;
+            border: none;
+            border-radius: 50px;
+            margin: 30px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            transition: background-color 0.3s, color 0.3s; /* geçiş efekti ekleme */
+        }
+
+            .custom-button.active {
+                color: white;
+                background-color: #e82454;
+            }
+    </style>
+
+<body>
+
+ 
+    <script>
+        function hideObject(id, hiddenCookie) {
+            var element = document.getElementById(id);
+            element.style.display = 'none';
+            setCookie(hiddenCookie, "true", 365);
+        }
+
+        function showObject(id, hiddenCookie) {
+            var element = document.getElementById(id);
+            element.style.display = 'block';
+            deleteCookie(hiddenCookie);
+        }
+
+        window.onload = function () {
+            if (getCookie("nesneHidden") === "true") {
+                hideObject('nesne', 'nesneHidden');
+            }
+
+            if (getCookie("nesne2Hidden") === "true") {
+                hideObject('nesne2', 'nesne2Hidden');
+            }
+        }
+
+        window.onresize = function () {
+            if (window.innerWidth <= 1867) {
+                hideObject('nesne', 'nesneHidden');
+                hideObject('nesne2', 'nesne2Hidden');
+            } else {
+                showObject('nesne', 'nesneHidden');
+                showObject('nesne2', 'nesne2Hidden');
+            }
+        }
+
+        // Cookie işlemleri için setCookie ve deleteCookie fonksiyonlarını tanımlamalısınız
+        // Bu fonksiyonlar tarayıcıda çerez oluşturup silme işlemlerini gerçekleştirir.
+
+        function setCookie(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        }
+
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        function deleteCookie(name) {
+            document.cookie = name + '=; Max-Age=-99999999;';
+        }
+    </script>
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header">
+        <h1 class="display-3 text-uppercase fot mb-3">Sıkça Sorulan Sorular</h1>
+        <div class="d-inline-flex text-white">
+            <h6 class="text-uppercase m-0"><a class="text-dark" href="index.html">Anasayfa</a></h6>
+            <h6 class="text-body m-0 px-3">/</h6>
+            <h6 class="text-uppercase text-body m-0">SSS</h6>
+        </div>
+    </div>
+    <!-- Page Header Start -->
+    <!-- About Start -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const buttons = document.querySelectorAll('.custom-button');
+            const content = document.getElementById("content");
+
+            const defaultContents = [
+                "<h2 class='text - left pt - 5 fot py - 5'>TikTak nedir?</h2><p class='yazi py-5'>TikTak; bireylerin ve kurumların dakikalık araç kiralama ihtiyaçlarını karşılayan ve kullandığın kadar ödemeye olanak sağlayan araç paylaşım markasıdır. TikTak’la farklı ihtiyaç ve zevklere uygun binlerce arabayı istediğin dakika kadar kullanır, kullandığın kadar ödersin.</p><h2 class='text - left pt - 5 fot py - 5'>TikTak'tan kimler araba kiralayabilir?</h2><p class='yazi py-5'>En az bir yıllık Türkiye Cumhuriyeti B tipi sürücü ehliyetine sahipsen,<br><br>Son bir yıl içinde ilgili makamlarca ehliyetine el konulmamışsa,<br><br>Son bir yıl içinde ikiden fazla kusurlu durumda kaza yapmamışsan,<br><br>Türkiye’de ikamet ediyorsan,<br><br>Son kullanma tarihi geçmemiş, internet alışverişine açık olan ve yeterli limite sahip bir kredi kartına sahipsen,<br><br>iOS veya Android işletim sistemine sahip akıllı cep telefonu sahibiysen,<br><br>TikTak’a üye olabilirsin.</p><h2 class='text - left pt - 5 fot py - 5'>Bireysel Kiralama nedir?</h2><p class='yazi py-5'>“Benim arabam yok, istediğim yere nasıl giderim?” diye düşünenlerin, kendi kredi kartlarıyla kullandıkları dakika kadar ödeme yapabilecekleri bir kiralamadır. TikTak mobil uygulamasından “Hemen Kirala” butonuna tıklayarak kiralama yapabilirsin.</p><h2 class='text - left pt - 5 fot py - 5'>Kurumsal Kiralama nedir?</h2><p class='yazi py-5'>TikTak’a kurumsal olarak başvuran firmaların gerçekleştirdiği kiralamadır. Kurumsal kiralamalarda arabaları, filo yöneticileri tarafından yetkilendirilmiş şirket çalışanları kullanır. Ödemeler, şirket kredi kartından her kiralama sonrasında yapılabileceği gibi ön ödemeli paket alımlarıyla da avantajlı bir şekilde yapılabilir. TikTak mobil uygulamasından kiralama yapıldığı sırada ‘’Kurumsal Kirala’’ butonuna tıklanarak kiralama gerçekleştirilir.<br><br>Kurumsal kiralama ile yetkilendirilen kullanıcıların mobil uygulamalarında “Kurumsal Kirala” butonu da gözükür. TikTak kurumsal müşterisi olmak için web sitesindeki başvuru formumuzu doldurabilir ya da mesai saatleri içerisinde (0212) 380 25 35 numaralı hattan bizlere ulaşabilirsin.</p><h2 class='text - left pt - 5 fot py - 5'>Arabalarda HGS var mı?</h2><p class='yazi py-5'>Evet, tüm arabalarımızda HGS mevcuttur.</p><h2 class='text - left pt - 5 fot py - 5'>TikTak HGS paketi nedir ve faydaları nelerdir?</h2><p class='yazi py-5'>TikTak kiralamalarında kullanabileceğin, farklı ihtiyaçlara yönelik oluşturulmuş avantajlı paketlerdir.<br><br>Örneğin; bir paketi satın aldığında belli bir miktarda TikTak Puan hediye edilir. Paket satın alarak elde ettiğin TikTak Puanlar ile kiralama gerçekleştirebilirsin.</p><h2 class='text - left pt - 5 fot py - 5' >TikTak paketi nasıl satın alabilirim?</h2><p class='yazi py-5'>Avantajlı paketlerimize, mobil uygulamamızın Profil sayfasındaki “Ön Ödemeli Bakiye Yükle” sekmesinden ulaşabilirsin.<br><br>TikTak mobil uygulamasına kaydettiğin kredi kartın üzerinden satın alma işlemini gerçekleştirebilirsin.<br><br>İşlem sonrasında satın aldığın paketin TL tutarı kadar bakiye, mobil uygulamada yer alan “Profil” sekmesindeki “Ön Ödemeli Bakiye” alanına aktarılır. Paket alımında yüklenen TikTak Puan ise yine aynı yerde bulunan “TikTak Puan” alanına yüklenir.</p><h2 class='text - left pt - 5 fot py - 5'>TikTak Puan nedir ve nerede kullanabilirim?</h2><p class='yazi py-5'>Sürpriz kampanyalarımızla ya da her paket alımında yüklenen TikTak Puanlar, kiralamalarında kullanabileceğin TL cinsinden bir ödeme aracıdır. Mobil uygulamadaki profil sekmesinde yer alan “TikTak Puan” alanında birikir.</p><h2 class='text - left pt - 5 fot py - 5' >TikTak Puan kazanmak için ne yapmalıyım?</h2><p class='yazi py-5'>Mobil uygulamadaki “Kampanyalar” sekmesinden, kiralamalarında kullanabileceğin TikTak Puan kazandıran kampanyaları takip edebilir, avantajlı TikTak paketlerinden satın alarak ekstra TikTak Puan kazanabilirsin.</p>",
+
+                "<h2 class='text - left pt - 5 fot py - 5'>Dakikalık kiralamada fiyatlandırma nasıl?</h2><p class='yazi py-5'>Dakikalık kiralamalarda kiralama başına 100 kilometre kullanım hakkın var, sadece kullandığın dakikanın ücretini ödersin.<br><br>100 kilometre kullanımı aşman durumunda kiraladığın aracın kilometre aşım ücretine göre ek kilometre ücreti ödersin.<br><br>Tüm araba gruplarımız için fiyatları aşağıda görüntüleyebilirsin.<br><br><br> <img src='img/fiyat.png' alt=''></p> <br><br><h2 class='text - left pt - 5 fot py - 5'>Saatlik paket nedir, nasıl kullanılır?</h2><p class='yazi py-5'>Saatlik paketler, dakikalık kiralamalarında kullanabileceğin ve kiralama başında belirli dakikalar için ön ödemeli olarak satın alabileceğin paketlerdir. Kiralama başlangıcında satın aldığın paketi sadece o an yaptığın kiralaman için kullanabilirsin. Saatlik paket daha sonra yapacağın kiralamalara devredilemez, satın alındıktan sonra iptal edilemez veya değiştirilemez.<br><br><b class='text - left pt - 5 fot py - 5'>Aldığım saatlik paketin süresi biterse kiralamam hangi fiyat üzerinden devam eder?</b><br><br>Paket dahilinde verilen sürenin aşılması sonucunda ücret, aracın dakikalık kiralama bedeli üzerinden devam eder.<br><br><b class='text - left pt - 5 fot py - 5'>Dakikalık kiralamalarımda saatlik paket almak zorunda mıyım?</b><br><br>İndirimli saatlik paket satın almadan da kiralama yapabilirsin. İndirimli saatlik paket satın almadığın durumlarda kiralama ücretin mevcut dakikalık kiralama bedeli üzerinden hesaplanır.<br><br><b class='text - left pt - 5 fot py - 5'>Saatlik paketlerde kilometre sınırı var mıdır?</b><br><br>Saatlik paket aldığında ek bir kilometre limiti yoktur.Kiralama başına 200 kilometre ücretsiz kullanım hakkın bulunmaktadır.<br><br>",
+
+                "<h2 class='text - left pt - 5 fot py - 5'>TikTak'a nasıl kayıt olurum?</h2><p class='yazi py-5'>TikTak, Google Play ve AppStore’dan akıllı telefonuna indirebileceğin bir mobil uygulamadır. Uygulamayı telefonuna indirdikten sonra; “Üye Ol” butonuna tıklayıp, ilgili alanları doldurup, tüm adımları tamamladıktan sonra kaydını hızlı bir şekilde gerçekleştirebilirsin.<br><br>Kayıt sırasında verdiğin bilgiler ile uygulamaya yüklediğin ehliyet ve fotoğrafın, Müşteri İlişkileri Yönetimi yetkililerimizce kontrol edilmesi sonrası kiralamaya hemen başlayabilirsin.<br><br><h2 class='text - left pt - 5 fot py - 5'>Kayıt sırasında kullandığım ehliyetim yenilendi, yenilenmiş ehliyetimi nasıl TikTak'a yükleyebilirim?</h2><p class='yazi py-5'>Mobil uygulamada yer alan “Profil” kısmındaki “Ehliyet Bilgileri” sekmesine tıklayarak, yenilenmiş ehliyetine ait bilgileri ve fotoğrafları güncelleyebilirsin.</p><br><br><h2 class='text - left pt - 5 fot py - 5'>TikTak'tan nasıl araba kiralarım?</h2><p class='yazi py-5'>Üyeliğin onaylandıktan sonra TikTak mobil uygulamasına giriş yap,<br><br>Mobil uygulama üzerinden bulunduğun bölgedeki arabalardan ihtiyacına uygun olanı seç,<br><br>İhtiyacına göre dakikalık veya günlük kiralama sekmesine tıkla,<br><br>“Hemen Kirala” butonuna tıkla,<br><br>Açılan ekrandan kullanmak istediğin kredi kartını tanımla. (Tanımlanan kredi kartı, provizyon bedeli ve daha sonra alınacak olan hizmete ilişkin ödeme aracı olarak kullanılacaktır.)<br><br>Sana verilen süre içerisinde seçtiğin arabanın yanına git.<br><br>Arabanı bulduktan sonra verilen süre içerisinde dış hasar kontrolünü yaparak; arabanın kapılarını mobil uygulama ile açıp kiralamaya başla.</p><br><br><h2 class='text - left pt - 5 fot py - 5'>TikTak arabasının hemen yanındayım, kiralamayı hemen başlatmanın bir yolu var mı?</h2><p class='yazi py-5'>Eğer bulunduğun lokasyonda karşına bir TikTak arabası çıktıysa ve hemen kiralamayı başlatmak istiyorsan;<br><br>Mobil uygulamada yer alan “QR Barkod” butonuna tıklayıp, uygulamanın telefon kamerasına erişmesine izin ver.<br><br>Telefonunun kamerasını, arabanın ön ve arka camının sol alt köşesinde yer alan QR barkodlardan birine tutarak barkodun okutulmasını sağla.<br><br>Sonrasında gelecek ekranlardaki yönlendirmeleri takip ederek, kiralamaya hemen başla.<br><br>Eğer araba, bir başka kullanıcı tarafından kiralanmadı ise, QR barkod ile hemen kiralama işlemine başlayabilirsin.<br><br></p><h2 class='text - left pt - 5 fot py - 5'>Teslim alacağım arabada hasar varsa ne yapmalıyım?</h2><p class='yazi py-5'>Kullanıma başlamadan önce, arabanın etrafında dolaşıp, dış hasar kontrolü yaparak herhangi bir hasar olup olmadığını kontrol etmelisin.<br><br>Eğer hasar yoksa mobil uygulamada ‘’Başka Hasar Yok, Kapıları Aç’’ seçeneğini tıklamalısın.<br><br>Eğer arabada herhangi bir hasar varsa uygulamadan ‘’Yeni Hasar Bildir’’ seçeneğini tıklayarak hasar bildirimi yapabilirsin.<br><br>Kiralamaya devam etmek istemiyorsan uygulama üzerinden farklı araba seçeneklerini takip edebilirsin.</p><h2 class='text - left pt - 5 fot py - 5'>Arabanın içi kirli ise ne yapmalıyım?</h2><p class='yazi py-5'>Kullanıma başlamadan önce arabanın içinde çöp veya benzeri şeyler varsa mobil uygulama üzerinden “İç Ekspertiz” seçeneğine tıklayarak, bize iletebilirsin.<br><br>Kiralamaya devam etmek istemiyorsan kiralamayı sonlandırarak, uygulama üzerinden farklı araba seçeneklerini takip edebilirsin.<br><br>Devam etmek istemediğin durumda, kiralamayı bitirdiğinde ortaya çıkacak kiralama bedeli ön ödemeli bakiyene iade edilecektir.</p><h2 class='text - left pt - 5 fot py - 5'>Kredi kartım yok. Banka kartı ile de kiralama yapabilir miyim?</h2><p class='yazi py-5'>Tüm TikTak ödemeleri, yalnızca internet alışverişine açık ve yeterli kullanılabilir limite sahip kredi kartları üzerinden gerçekleştirilebilir. Banka (Debit) kartlar ile ödeme yapılamaz.</p></p>",
+
+                "<h2 class='text - left pt - 5 fot py - 5'>Kiralama sırasında arabanın anahtarını kullanacak mıyım? Evet ise, arabanın anahtarını nasıl alacağım?</h2><p class='yazi py-5'>Kiralamanı başlatırken, TikTak mobil uygulamasını kullanarak araba kapılarını açabilirsin.<br><br>Arabayı çalıştırmak için torpido gözünde yer alan anahtarı almalısın.<br><br>Kiralamanı sonlandırmadan arabadan ayrılman gerektiğinde, arabanın anahtarını kullanarak kapıları açıp kapatabilirsin.<br><br>Kiralamayı sonlandırırken, araba anahtarını tekrar torpido gözüne bırakarak TikTak mobil uygulaması üzerinden araba kapılarını kilitleyebilirsin.<br><br>Kiralama bitiminde anahtarın torpidoda görünen bir yere koyulması, senden sonraki kullanıcılar için kolaylık sağlayacaktır.<h2 class='text - left pt - 5 fot py - 5'>Yakıtı kim ödüyor ve yakıtı nereden alabilirim?</h2><p class='yazi py-5'>TikTak arabalarında Taşıt Tanıma Sistemi (TTS) bulunuyor. Yakıtı, sana en yakın Shell istasyonundan hiçbir ücret ödemeden alabilirsin.<br><br>Arabayı teslim ederken bir sonraki kullanıcıyı düşünerek yakıt almanı ve yakıt deposunu boş bırakmamanı rica ediyoruz.<br><br>Aktif kiralama sırasında güncel Shell istasyon listesine, TikTak mobil uygulamamızda yer alan “En Yakın Benzinlik” butonu üzerinden ulaşabilirsin.</p><h2 class='text - left pt - 5 fot py - 5'>TikTak arabasını ne kadar süre ile kullanabilirim?</h2><p class='yazi py-5'>TikTak arabanı istediğin dakika kadar kiralayabilirsin. En az kiralama süresi 1 dakikadır.<br><br>Günlük Kiralama ise 1-14 gün arasında yapılabilmektedir.</p><h2 class='text - left pt - 5 fot py - 5'>Araba ile şehir dışına çıkabilir miyim? Tiktak'ın hizmet/kullanım alanı nedir?</h2><p class='yazi py-5'>Evet, şehir dışına çıkabilirsin fakat kiralamanı hizmet bölgesi içerisinde sonlandırabileceğini unutma!<br><br>Hizmet bölgelerimizi; TikTak uygulamamızdan ‘’Menü (…) – Hizmet Bölgesi’’ kısmına giriş yaparak harita üzerinden kontrol edebilirsin.<br><br>Şehir dışına çıktığında ekiplerimizin seninle iletişime geçebilmeleri için cep telefonundan ulaşılabilir olmaya özen göstermelisin. İhtiyaç duyduğun her konuda bize 444 55 05 numaralı hat üzerinden 7/24 ulaşabilirsin.<br><br>TikTak olarak hizmet bölgemizin İstanbul ile sınırlı olmasından dolayı, şehir dışında arabayla ilgili herhangi bir hasar veya kaza durumunda yol yardım hizmeti sunamayacağımızı ve oluşabilecek çekici, lastik değişimi gibi ücretleri karşılamanız gerektiğini hatırlatmak isteriz.</p><h2 class='text - left pt - 5 fot py - 5'>Arabayı İSPARK'lara bırakabilir miyim? Özel alanlara park edebilir miyim?</h2><p class='yazi py-5'>Aktif kiralaman devam ederken;<br><br>Park yasağı olmayan ya da arabanın zarar görmeyeceği her noktaya park edebilirsin.<br><br>İspark’ları kullanabilirsin. İspark ücreti ödediğinde, ödediğin tutarın yüzde 10 fazlası TikTak Puan olarak hesabına yüklenir.<br><br>Ücretini senin ödemen şartıyla tüm özel otoparklara da park edebilirsin.<br><br>Kiralamanı sonlandırırken;<br><br>Arabanın çekilmeyeceği ya da zarar görmeyeceği hizmet bölgesi içerisindeki her noktaya park edebilirsin.<br><br>Hizmet bölgesi içerisinde, senden sonra kiralama yapacak olan kullanıcının arabaya rahatça erişebileceği herhangi bir noktaya park edebilirsin.<br><br>Hizmet bölgesi içerisindeki tüm İspark’lara bırakabilirsin.<br><br>Arabanın, hatalı yerlere park edilmesine ilişkin doğabilecek masraflar için, TikTak mobil uygulamamız içerisinde yer alan “Ücret ve Masraf Politikası”nı inceleyebilirsin.</p><h2 class='text - left pt - 5 fot py - 5'>İspark otopark ücreti ödediğimde ne yapmalıyım?</h2><p class='yazi py-5'>Eğer kiralama yapacağın araba İspark’taysa, arabayı İspark’tan çıkarırken ödediğin otopark fişinin fotoğrafını, aktif sürüş ekranında yer alan “İspark Fişi Yükle” alanından yüklemelisin.<br><br>Eğer kiralamanı İspark’ta sonlandırıyorsan, kiralaman devam ederken İspark ödemesi yaparsan, otopark fişinin fotoğrafını aktif sürüş ekranında yer alan “İspark Fişi Yükle” alanından yüklemelisin. Kiralamanı bitirip arabayı kilitledikten sonra İspark ödemesi yaparsan, otopark fişinin fotoğrafını web sitemizdeki Bize Ulaş formunda yer alan “TikTak Adına Yaptığın Harcama Talepleri” başlığından yüklemelisin.<br><br>Ödediğin tutarın %10 fazlası, fişini yükledikten sonra 24 saat içerisinde TikTak hesabına puan olarak yüklenir.</p><h2 class='text - left pt - 5 fot py - 5'>Havalimanlarını kullanabilir miyim?</h2><b></b><br><br><p class='yazi py-5'>Hemen yakınındaki İSPARK otoparkına aracını bırakabilir ve ardından ücretsiz yolcu servisi ile 5 dakika içerisinde Sabiha Gökçen Havalimanı’na ulaşabilirsin. Eğer uçaktan yeni indiysen havalimanı yakınındaki İSPARK hizmet bölgemiz içerisinde TikTak arabası varsa hemen kiralamaya başlayabilirsin.<br><br><h2 class='text - left pt - 5 fot py - 5'>Kaza yaptım, ne yapmalıyım?</h2><p class='yazi py-5'>Öncelikle kazada yaralanma var ise 112’yi arayarak ambulans çağırmalısın. Yasal gereklilik nedeni ile 155’i arayarak, polis zaptı talep etmelisin.<br><br>Mobil uygulamada 'Yol Yardım' butonuna tıklayıp 'Kaza Yaptım' başlığı üzerinden ilgili adımları izleyerek kaza bildiriminde bulunmalısın.<br><br>Kaza bildiriminden sonra 444 55 05 numaradan Müşteri Hizmetlerimizi aramalısın.<br><br>Eğer büyük bir hasar oluştuysa saha ekibi ve çekici gelene kadar arabanın yanında bulunmalısın.</p><p class='yazi py-5 fot>Sağlaman Gereken Evraklar</b><br><br>Kaza tek taraflıysa yani senin araban dışında başka bir araba kazaya karışmadıysa maddi hasarlı trafik kazası tespit tutanağı tutmalısın.<br><br>Kaza çift taraflıysa yani senin arabanla birlikte başka bir araba da kazaya karıştıysa anlaşmalı tutanak veya maddi hasarlı trafik kazası tespit tutanağı tutmalısın. Bu evrakları web sitemizde yer alan Bize Ulaş formu üzerinden bize iletmelisin.</b><br><br><b>Peki ne ödersin?</b><br><br>Mesafeli Satış Sözleşmesi’nde kiralamaya ilişkin kurallar detaylı bir şekilde belirtilmiştir. Öncelikle olası bir kaza durumunda kaza bildirimini yapman en kritik konudur. Kazanın oluş biçimi, oluşan hasar tutarı, evrakların geçerliliği ödeme yapıp yapmayacağın konusunda belirleyici olacaktır. Detaylı bilgi alabilmek için güncel sözleşmemizi ve masraf politikamızı dilediğin zaman uygulama içerisinde 'Sözleşmeler' kısmından inceleyebilirsin.</p></p><br><br><h2 class='text - left pt - 5 fot py - 5'>Arabaya evcil hayvanımı alabilir miyim?</h2><p class='yazi py-5'>Diğer TikTak kullanıcılarının hayvan tüyüne karşı alerjisi olabileceği için evcil hayvanını özel kutu veya kafeste taşıdığın takdirde sorun olmayacaktır.<br><br><h2 class='text - left pt - 5 fot py - 5'>Arabada sigara içilebiliyor mu?</h2><p class='yazi py-5'>Arabanın camları açık olsa dahi arabada sigara içilmesi yasaktır. Lütfen arabayı başkalarının da kullanacağını unutmayalım.<br><br>Kullanıcı kaynaklı masraflar için, TikTak mobil uygulamamız içerisinde yer alan “Ücret ve Masraf Politikası”nı inceleyebilirsin.</p><br><br><h2 class='text - left pt - 5 fot py - 5'>Araba içinde bir şey unutur veya bulursam ne olur?</h2><p class='yazi py-5'>Araba içinde unutulan veya zarar gören özel eşyalar kullanıcının sorumluluğundadır ve sigorta tarafından kapsama dahil edilmemiştir.<br><br>Eğer araba içinde eşya bulursan lütfen onu torpido gözüne veya bagaja bırakarak web sitemizde yer alan Bize Ulaş formu üzerinden Kayıp Eşya seçeneğini tıklayıp bize bildirmeni rica ederiz.</p><br><br><h2 class='text - left pt - 5 fot py - 5'>Kiralamayı nasıl sonlandırabilirim?</h2><p class='yazi py-5'>Kiralamayı bitirirken TikTak arabanı, mobil uygulamada belirtilen hizmet bölgesi içerisindeki ücretsiz park edilebilir alanlara veya İspark’lara bırakabilirsin. Eğer kiralamanı İspark otoparkında sonlandırıyorsan, senden sonraki kullanıcının ödeme yapabilmesi için İspark fişini arabanın içerisinde, camdan görünecek şekilde gösterge panelinin üzerine bırakmalısın.<br><br>Arabanın hiçbir şekilde çekilmeyeceği, zarar görmeyeceği ve bir sonraki kullanıcının kolay ulaşabileceği bir alan olmasına dikkat etmelisin.<br><br>Ardından mobil uygulama içerisinden “Kiralamayı Bitir’’ butonunu tıkladıktan sonraki adımları takip ederek kiralamayı sonlandırabilirsin. Lütfen kiralamayı sonlandırmadan önce bütün eşyalarını almayı, varsa çöpleri atmayı ve bir sonraki TikTak kullanıcısı için en az çeyrek depo kadar yakıt bırakmayı unutma.</p><br><br><h2 class='text - left pt - 5 fot py - 5'>Geçmiş TikTak kiralamalarımın bilgilerine ulaşabilir miyim?</h2><p class='yazi py-5'>Mobil uygulamada yer alan “Profil” kısmındaki “Sürüş Geçmişi” sekmesi üzerinden, geçmiş kiralamalarına ait detaylı bilgilere ulaşabilirsin.</p><br><br><h2 class='text - left pt - 5 fot py - 5'>Köprü ve otoyol geçiş ücretleri nasıl ödenir?</h2><p class='yazi py-5'>Kiralama süresince yapacağın köprü geçiş ücretleri, geçiş yaptığın köprü ve otoyola göre hesaplanır. Bu ücret, kiralama ücretiyle birlikte kredi kartından tahsil edilebilir ya da tarafına ayrıca yansıtılıp kredi kartından direkt olarak tahsil edilecektir.</p></p>",
+
+
+            ];
+
+            buttons.forEach((button, index) => {
+                button.addEventListener('click', () => {
+                    buttons.forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+                    content.innerHTML = defaultContents[index];
+                });
+            });
+
+            buttons[0].click(); // İlk butona otomatik tıklama yapılır.
+        });
+    </script>
+
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <h1 class="display-5 text-center mb-5 fot">
+                <button id="button1" class="custom-button">Tiktak'ı Tanıyın</button>
+                <button id="button2" class="custom-button">Fiyatlandırma</button>
+                <button id="button3" class="custom-button">Kiralama Öncesi</button>
+                <button id="button4" class="custom-button">Kiralama Sırasında</button>
+
+            </h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-left">
+                    <p class="yazi text-left pt-5"> <div id="content"></div></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    
+   
+
+    <!-- JavaScript Libraries -->
+    @* <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script> *@
+
+
+    <!-- Template Javascript -->
+    
+</body>
+
+

@@ -1,0 +1,125 @@
+﻿
+@{
+    ViewData["Title"] = "PrivatePolicy";
+    Layout = "~/Views/Shared/_LayoutTiktak.cshtml";
+}
+
+
+
+    <style>
+        .image-3 {
+            border: 2px solid black;
+            border-radius: 30px;
+        }
+    </style>
+
+
+<body>
+
+  
+    <script>
+        function hideObject(id, hiddenCookie) {
+            var element = document.getElementById(id);
+            element.style.display = 'none';
+            setCookie(hiddenCookie, "true", 365);
+        }
+
+        function showObject(id, hiddenCookie) {
+            var element = document.getElementById(id);
+            element.style.display = 'block';
+            deleteCookie(hiddenCookie);
+        }
+
+        window.onload = function () {
+            if (getCookie("nesneHidden") === "true") {
+                hideObject('nesne', 'nesneHidden');
+            }
+
+            if (getCookie("nesne2Hidden") === "true") {
+                hideObject('nesne2', 'nesne2Hidden');
+            }
+        }
+
+        window.onresize = function () {
+            if (window.innerWidth <= 1867) {
+                hideObject('nesne', 'nesneHidden');
+                hideObject('nesne2', 'nesne2Hidden');
+            } else {
+                showObject('nesne', 'nesneHidden');
+                showObject('nesne2', 'nesne2Hidden');
+            }
+        }
+
+        // Cookie işlemleri için setCookie ve deleteCookie fonksiyonlarını tanımlamalısınız
+        // Bu fonksiyonlar tarayıcıda çerez oluşturup silme işlemlerini gerçekleştirir.
+
+        function setCookie(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        }
+
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        function deleteCookie(name) {
+            document.cookie = name + '=; Max-Age=-99999999;';
+        }
+    </script>
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header">
+        <h1 class="display-3 text-uppercase fot mb-3">Gizlilik Politikası</h1>
+        <div class="d-inline-flex text-white">
+            <h6 class="text-uppercase m-0"><a class="text-dark" href="index.html">Anasayfa</a></h6>
+            <h6 class="text-body m-0 px-3">/</h6>
+            <h6 class="text-uppercase text-body m-0">Gizlilik Politikası</h6>
+        </div>
+    </div>
+    <!-- Page Header Start -->
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-left">
+                    <h2 class="text-left pt-5 fot">GİZLİLİK POLİTİKASI</h2>
+                    <p class="yazi text-left pt-5 py-5">Bu gizlilik politikası, TikTak tarafından sağlanan hizmetlerin kullanımı sırasında müşteri gizliliğini korumak amacıyla oluşturulmuştur. Lütfen bu politikayı dikkatlice okuyun.</p>
+                    <h2 class="text-left pt-5 fot py-5">1. TOPLADIĞIMIZ BİLGİLER</h2>
+                    <p class="yazi text-left">1.1 Kişisel Bilgiler: Ad, soyadı, iletişim bilgileri (telefon numarası, e-posta adresi) gibi kimlik bilgileri.</p>
+                    <p class="yazi text-left">1.2 Ödeme Bilgileri: Kredi kartı bilgileri, fatura adresi gibi ödeme işlemleri için gerekli bilgiler.</p>
+                    <p class="yazi text-left py-3">1.3 Arama Geçmişi: Şirket web sitesi veya uygulaması üzerinden yapılan aramaların kaydı.</p>
+                    <h2 class="text-left pt-5 fot py-5">2. BİLGİLERİN KULLANIMI</h2>
+                    <p class="yazi text-left">2.1 Hizmet Sağlanması: Kiralama işlemlerinin gerçekleştirilmesi, rezervasyonların takibi ve müşteri desteği sağlanması.</p>
+                    <p class="yazi text-left py-3">2.2 Pazarlama: Müşterilere özel kampanyalar, indirimler ve promosyonlar hakkında bilgilendirme yapılması.</p>
+                    <h2 class="text-left pt-5 fot py-5">3. BİLGİLERİN PAYLAŞIMI</h2>
+                    <p class="yazi text-left">3.1 Üçüncü Taraflarla Paylaşım: Kiralama işlemlerinin gerçekleştirilmesi için gerekli bilgilerin, kredi kartı şirketleri, sigorta şirketleri gibi iş ortaklarıyla paylaşılması.</p>
+                    <p class="yazi text-left py-3">3.2 Yasal Gereklilikler: Şirket, yasal bir zorunluluk veya mahkeme kararı doğrultusunda bilgileri paylaşabilir.</p>
+                    <h2 class="text-left pt-5 fot py-5">4. GÜVENLİK</h2>
+                    <p class="yazi text-left py-3">4.1 Bilgi Güvenliği: Müşteri bilgilerinin yetkisiz erişim, değişiklik veya yayılmasını önlemek için gerekli teknik önlemler alınmaktadır.</p>
+                    <h2 class="text-left pt-5 fot py-5">5. ÇEREZLER (COOKIES)</h2>
+                    <p class="yazi text-left py-3">5.1 Çerez Kullanımı: Web sitesi veya uygulama, ziyaretçilerin tercihlerini hatırlamak ve site performansını izlemek için çerezler kullanabilir.</p>
+                    <h2 class="text-left pt-5 fot py-5">6. GÜNCELLEMELER VE DEĞİŞİKLİKLER</h2>
+                    <p class="yazi text-left ">6.1 Gizlilik Politikası Değişiklikleri: Gizlilik politikamızdaki değişiklikler, bu sayfa üzerinden yayınlanacak ve değişikliklerin yürürlüğe girmesi için belirli bir süre verilecektir.</p>
+                    <p class="yazi text-left py-3">Bu gizlilik politikası, Şirket tarafından sağlanan hizmetlerin kullanımı sırasında geçerlidir.</p>
+                    <p class="yazi text-left py-3">Herhangi bir gizlilik politikası ile ilgili sorularınız veya endişeleriniz varsa, lütfen bizimle iletişime geçmekten çekinmeyin.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+ 
+</body>
+
+

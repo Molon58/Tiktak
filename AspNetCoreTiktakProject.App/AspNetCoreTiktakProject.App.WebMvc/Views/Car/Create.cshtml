@@ -1,0 +1,118 @@
+﻿@model CarPropertyViewModel
+@{
+    ViewData["Title"] = "Araç Ekle";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container-fluid py-4">
+    <div class="row min-vh-80">
+        <div class="col-6 mx-auto">
+            <div class="card mt-4">
+                <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                        <h6 class="text-white text-capitalize ps-3">Araç Ekle</h6>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="container-fluid">
+                        <div class="col-lg-12 mb-2">
+                            <form asp-controller="Car" asp-action="Create" method="post" enctype="multipart/form-data">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="row">
+                                    <h5 class="card-title pb-3" style="color: #e82454;">Araç Bilgileri</h5>
+                                    <div class="col-6 form-group">
+                                        <label asp-for="Brand" class="control-label"></label>
+                                        <input asp-for="Brand" type="text" class="form-control p-4" placeholder="Marka" autofocus>
+                                        <span asp-validation-for="Brand" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <label asp-for="Model" class="control-label"></label>
+                                        <input asp-for="Model" type="text" class="form-control p-4" placeholder="Model">
+                                        <span asp-validation-for="Model" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <label asp-for="FuelType" class="control-label"></label>
+                                        <input asp-for="FuelType" type="text" class="form-control p-4" placeholder="Yakıt Tipi">
+                                        <span asp-validation-for="FuelType" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <label asp-for="GearType" class="control-label"></label>
+                                        <input asp-for="GearType" type="text" class="form-control p-4" placeholder="Vites Tipi">
+                                        <span asp-validation-for="GearType" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <label asp-for="Plaque" class="control-label"></label>
+                                        <input asp-for="Plaque" type="text" class="form-control p-4" placeholder="Plaka">
+                                        <span asp-validation-for="Plaque" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <label asp-for="TotalPerson" class="control-label"></label>
+                                        <input asp-for="TotalPerson" type="text" class="form-control p-4" placeholder="Kapasite">
+                                        <span asp-validation-for="TotalPerson" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <label asp-for="Baggage" class="control-label"></label>
+                                        <input asp-for="Baggage" type="text" class="form-control p-4" placeholder="Bagaj">
+                                        <span asp-validation-for="Baggage" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <label asp-for="MinutePrice" class="control-label"></label>
+                                        <input asp-for="MinutePrice" type="text" class="form-control p-4" placeholder="Fiyat">
+                                        <span asp-validation-for="MinutePrice" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <label asp-for="Location" class="control-label"></label>
+                                        <input asp-for="Location" type="text" class="form-control p-4" placeholder="Lokasyon">
+                                        <span asp-validation-for="Location" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-12 form-group">
+                                        <h5 class="card-title pt-5" style="color: #e82454;">Aracın Kapak Fotoğrafı</h5>
+                                        <label asp-for="ImageUrl" class="control-label" style="color:#e82454"></label>
+                                        <input asp-for="ImageUrl" class="form-control py-1" type="file" name="formFile1">
+                                        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-12 form-group">
+                                        <h5 class="card-title pt-5" style="color: #e82454;">Aracın Önden Fotoğrafı</h5>
+                                        <label asp-for="ImageDetailUrl1" class="control-label" style="color:#e82454"></label>
+                                        <input asp-for="ImageDetailUrl1" class="form-control py-1" type="file" name="formFile2">
+                                        <span asp-validation-for="ImageDetailUrl1" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-12 form-group">
+                                        <h5 class="card-title pt-5" style="color: #e82454;">Aracın Soldan Fotoğrafı</h5>
+                                        <label asp-for="ImageDetailUrl2" class="control-label" style="color:#e82454"></label>
+                                        <input asp-for="ImageDetailUrl2" class="form-control py-1" type="file" name="formFile3">
+                                        <span asp-validation-for="ImageDetailUrl2" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-12 form-group">
+                                        <h5 class="card-title pt-5" style="color: #e82454;">Aracın Sağdan Fotoğrafı</h5>
+                                        <label asp-for="ImageDetailUrl3" class="control-label" style="color:#e82454"></label>
+                                        <input asp-for="ImageDetailUrl3" class="form-control py-1" type="file" name="formFile4">
+                                        <span asp-validation-for="ImageDetailUrl3" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-12 form-group">
+                                        <h5 class="card-title pt-5" style="color: #e82454;">Aracın Arkadan Fotoğrafı</h5>
+                                        <label asp-for="ImageDetailUrl4" class="control-label" style="color:#e82454"></label>
+                                        <input asp-for="ImageDetailUrl4" class="form-control py-1" type="file" name="formFile5">
+                                        <span asp-validation-for="ImageDetailUrl4" class="text-danger"></span>
+                                    </div>
+                                    <div class="yazi">
+                                        <div class="form-group mt-2">
+                                            <a asp-action="Index" asp-controller="Car" class="btn textyazi text-white font-weight-bold text-xs" style="background-color:#e91e63;">
+                                                İptal
+                                            </a>
+
+
+                                            <input type="submit" value="Ekle" class="txt2 font-weight-bold text-xl btn text-white" style="background-color:#e91e63;" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

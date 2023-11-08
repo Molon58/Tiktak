@@ -1,0 +1,45 @@
+﻿@model List<UserViewModel>
+
+<table class="table align-items-center mb-0" id="tablo">
+    <thead>
+        <tr>
+            <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Kullanıcı</th>
+            <th class="text-secondary opacity-7"></th>
+        </tr>
+    </thead>
+    <tbody>
+         @foreach (var item in Model)
+            {
+        <tr>
+           
+
+                <td>
+                    <div class="d-flex px-2 py-1">
+                        <div>
+                            <img src="~/TiktakAdmin/assets/img/default-user-image.png" class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
+                        </div>
+
+                        @*<a asp-action="Details" asp-controller="Article" asp-route-id="@item.Id">
+                    <img src="~/themes/images/7.jpg" class="card-img-top img-fluid" alt="">
+                    </a>*@
+                        <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">@item.FirstName @item.LastName</h6>
+                            <p class="text-xs text-secondary mb-0">@item.Email</p>
+                        </div>
+
+                    </div>
+                </td>
+
+                <td class="align-middle ">
+                    <a asp-action="Details" asp-controller="User" asp-route-id="@item.Id" class="btn text-white textyazi font-weight-bold text-xs" style="background-color:#e91e63;">
+                        Detay
+                    </a>
+                    <a onclick="deleteto(@item.Id)" class="btn text-white textyazi font-weight-bold text-xs" style="background-color:#e91e63;">
+                        Sil
+                    </a>
+                </td>
+            
+        </tr>
+        }
+    </tbody>
+</table>

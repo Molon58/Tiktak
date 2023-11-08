@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutTiktak.cshtml";
+}
+<style>
+
+    .my-button {
+        padding: 10px 20px !important; /* Yatay ve dikey dolgular */
+        font-size: 16px !important; /* Yazı tipi boyutu */
+        background-color: #e75480 !important; /* Arkaplan rengi */
+        color: #fff !important; /* Yazı rengi */
+        border: 1px solid #e75480 !important; /* Kenarlık yok */
+        border-radius: 5px !important; /* Kenar yuvarlatma */
+        cursor: pointer !important; /* Üzerine gelince işaretçi türü */
+    }
+
+        .my-button:hover {
+            opacity: 0.8; /* Üzerine gelince opaklığı azalt */
+        }
+</style>
+<!-- Detail Start -->
+<div class="container-fluid pt-5">
+    <div class="container pt-5 pb-3">
+        <div class="row align-items-center pb-2">
+            <div class="col-lg-6 mb-4 yazi">
+                <h1 class="display-3 text-uppercase mb-5 baslik py-5">Tiktak Neo</h1>
+                <img class="img-fluid image" src="~/Templete/car-rental-html-template/img/tiktak-neo.png" alt="">
+            </div>
+            <div class="col-lg-6 mb-4 yazi">
+                <p>Yeni nesil abonelik modeli Tiktak Neo'ya geç araba yapmanın en kısa yoluyla tanış. Hemen Tiktak'a kayıt ol, 30 gün boyunca, dilediğin arabayı tıpkı kendi araban gibi her gün kullanmaya başla</p>
+                <div>
+                    <span>
+                        <a class=" btn my-button" asp-action="Register" asp-controller="Account">Kayıt Ol</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="container pt-5 pb-3">
+        <div class="row align-items-center pb-2">
+            <div class="col-lg-6 mb-4 yazi-2">
+                <h1 class="display-3 text-uppercase mb-5 baslik-2 py-3">NERELERDE VARIZ?</h1>
+                <p>Web sayfamızda belirtilen İstanbul il sınırları içerisindeki hizmet bölgesinde yer alan TikTak araçlarını kullanabilirsin.</p>
+                <div>
+                    <span>
+                        <a class=" btn my-button" asp-action="Index" asp-controller="Sale">Kirala</a>
+                    </span>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mb-4 pt-5">
+                <img class="img-fluid image-2" src="~/Templete/car-rental-html-template/img/figure-mask-04.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Detail End -->

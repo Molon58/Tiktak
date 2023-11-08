@@ -1,0 +1,146 @@
+﻿@{
+    ViewData["Title"] = "Rent";
+    Layout = "~/Views/Shared/_LayoutTiktak.cshtml";
+}
+
+@model List<CarPropertyViewModel>
+
+@* ---------------------- *@
+
+
+
+
+
+<body>
+    <script>
+        function validateForm() {
+            // Form doğrulama mantığı burada...
+            var chkTerms = document.getElementById('chkTerms');
+            if (!chkTerms.checked) {
+                alert("Satış Sözleşmesi şartlarını kabul etmelisiniz.");
+                return false; // Formu göndermeyi engelle
+            }
+            return true; // Formu gönder
+        }
+
+        function onSubmitButtonClick() {
+            // Butona tıklandığında yapılacak işlemler burada...
+            // Örneğin, başka bir fonksiyonu çağırabilirsiniz.
+            // Eğer formun gönderilmesini engellemek istemiyorsanız, "return true;" dönebilirsiniz.
+        }
+    </script>
+    <style>
+
+        .my-button {
+            padding: 10px 20px !important; /* Yatay ve dikey dolgular */
+            font-size: 16px !important; /* Yazı tipi boyutu */
+            background-color: #e75480 !important; /* Arkaplan rengi */
+            color: #fff !important; /* Yazı rengi */
+            border: 1px solid #e75480 !important; /* Kenarlık yok */
+            border-radius: 5px !important; /* Kenar yuvarlatma */
+            cursor: pointer !important; /* Üzerine gelince işaretçi türü */
+        }
+
+            .my-button:hover {
+                opacity: 0.8; /* Üzerine gelince opaklığı azalt */
+            }
+    </style>
+
+
+
+
+    <!-- Detail Start -->
+    <div class="container-fluid pt-5">
+        <div class="container pt-5 ">
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8 mb-5">
+                    @foreach (var item in Model)
+                    {
+                        <h1 class="display-4 text-uppercase mb-5 fot text-center">@item.Brand</h1>
+                        <div class="row mx-n2 mb-3">
+                            <div class="col-md-3 kavis">
+                                <img class="img-fluid w-100 border:2px" s src="~/Templete/car-rental-html-template/img/gallery-1.jpg" alt="">
+                            </div>
+                            <div class="col-md-3 col-6 px-2 pb-2">
+                                <img class="img-fluid w-100" src="~/Templete/car-rental-html-template/img/gallery-2.jpg" alt="">
+                            </div>
+                            <div class="col-md-3 col-6 px-2 pb-2">
+                                <img class="img-fluid w-100" src="~/Templete/car-rental-html-template/img/gallery-3.jpg" alt="">
+                            </div>
+                            <div class="col-md-3 col-6 px-2 pb-2">
+                                <img class="img-fluid w-100" src="~/Templete/car-rental-html-template/img/gallery-4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="row pt-2">
+
+
+                            <div class="col-md-3 col-6 mb-2">
+                                <i class="fa fa-car  fot mr-2 fot"></i>
+                                <span>Plaka: @item.Plaque</span>
+                            </div>
+                            <div class="col-md-3 col-6 mb-2">
+                                <i class="fa fa-car  fot mr-2 fot"></i>
+                                <span>Model: @item.Model</span>
+                            </div>
+                            <div class="col-md-3 col-6 mb-2">
+                                <i class="fa fa-car  fot mr-2 fot"></i>
+                                <span>@item.FuelType</span>
+                            </div>
+                            <div class="col-md-3 col-6 mb-2">
+                                <i class="fa fa-car fot mr-2 fot"></i>
+                                <span>Vites:@item.GearType</span>
+                            </div>
+                            <div class="col-md-3 col-6 mb-2">
+                                <i class="fa fa-car  fot mr-2 fot"></i>
+                                <span>Kapasite: @item.TotalPerson Kişilik</span>
+                            </div>
+
+                            <div class="col-md-3 col-6 mb-2">
+                                <i class="fa fa-car fot mr-2 fot"></i>
+                                <span>@item.Baggage Bagaj</span>
+                            </div>
+                            <div class="col-md-3 col-6 mb-2">
+                                <i class="fa fa-car  fot mr-2 fot"></i>
+                                <span> ESP: Var</span>
+                            </div>
+
+
+                            <div class="col-md-3 col-6 mb-2">
+                                <i class="fa fa-car  fot mr-2"></i>
+                                <span>GPS: Var</span>
+                            </div>
+                            <div class="pt-5">
+
+
+                                <iframe src="~/Templete/car-rental-html-template/salesp.html" width="750" height="550"></iframe>
+                                <br>
+
+                                <br>
+                                <form onsubmit="return validateForm()" asp-controller="Sale" asp-action="RentPost" asp-route-carId="@item.CarId">
+                                    <div class="form-group wrap-input100">
+                                        <input type="checkbox" id="chkTerms" name="chkTerms" required>
+                                        <label for="chkTerms">Satış Sözleşmesi şartlarını okudum ve kabul ediyorum.</label>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary my-button ">Kirala</button>
+
+                                </form>
+                                <br>
+
+
+
+
+
+                            </div>
+                        </div>
+                    }
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+

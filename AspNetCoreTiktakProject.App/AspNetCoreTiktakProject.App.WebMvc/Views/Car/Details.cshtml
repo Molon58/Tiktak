@@ -1,0 +1,91 @@
+﻿@model CarPropertyViewModel
+@{
+    ViewData["Title"] = "Araç Detay";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container-fluid py-4">
+    <div class="row min-vh-80">
+        <div class="col-6 mx-auto">
+            <div class="card mt-4">
+                <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                        <h6 class="text-white text-capitalize ps-3">Araç Detay</h6>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="container-fluid">
+                        <div class="col-lg-12 mb-2">
+                            <form>
+                                <div class="row">
+                                    <h5 class="card-title pb-3" style="color: #e82454;">Aracın Bilgileri</h5>
+                                    <div class="col-6 form-group">
+                                        <input type="text" class="form-control p-4" placeholder="@Model.Brand" readonly>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <input type="text" class="form-control p-4" placeholder="@Model.Model" readonly>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <input type="text" class="form-control p-4" placeholder="@Model.FuelType" readonly>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <input type="text" class="form-control p-4" placeholder="@Model.GearType" readonly>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <input type="text" class="form-control p-4" placeholder="@Model.Plaque" readonly>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <input type="text" class="form-control p-4" placeholder="@Model.TotalPerson" readonly>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <input type="text" class="form-control p-4" placeholder="@Model.Baggage" readonly>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <input type="text" class="form-control p-4" placeholder="@Model.MinutePrice" readonly>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <input type="text" class="form-control p-4" placeholder="@Model.Location" readonly>
+                                    </div>
+                                    <h5 class="card-title pb-3 pt-5" style="color: #e82454;">Aracın Kapak Fotoğrafı</h5>
+                                    <div class="form-group">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <img src="@Model.ImageUrl" class="card-img-top pb-5" alt="...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h5 class="card-title pb-3 pt-5" style="color: #e82454;">Aracın Diğer Fotoğrafları</h5>
+                                    <div class="form-group">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <img src="@Model.ImageDetailUrl1" class="card-img-top pb-5" alt="...">
+                                                </div>
+                                                <div class="col-6">
+                                                    <img src="@Model.ImageDetailUrl2" class="card-img-top pb-5" alt="...">
+                                                </div>
+                                                <div class="col-6">
+                                                    <img src="@Model.ImageDetailUrl3" class="card-img-top pb-5" alt="...">
+                                                </div>
+                                                <div class="col-6">
+                                                    <img src="@Model.ImageDetailUrl4" class="card-img-top pb-5" alt="...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="yazi">
+                                    <br> <a asp-action="Index" asp-controller="Car" class="textyazi font-weight-bold text-xs btn text-white" style="background-color:#e91e63;">
+                                        Geri Dön
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

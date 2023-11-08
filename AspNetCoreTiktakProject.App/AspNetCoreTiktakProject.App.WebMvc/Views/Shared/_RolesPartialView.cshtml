@@ -1,0 +1,48 @@
+﻿@model IEnumerable<RoleViewModel>
+<table class="table align-items-center mb-0" id="tablo">
+    <thead>
+        <tr>
+            <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7">Rol Adı</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <div id="id" class="d-flex justify-content-between align-items-center px-3 py-1">
+                    @if (Model.Count() > 0)
+                    {
+                        @foreach (var item in Model)
+
+                        {
+                            <div class="d-flex">
+                                <h6 class="mb-0 text-secondary mr-3">@Html.DisplayFor(modelItem => item.Name)</h6>
+                            </div>
+
+                            <div class="container">
+                                <span>
+                                    <a asp-action="Edit" asp-route-id="@item.Id" asp-controller="Role" class="btn textyazi text-white font-weight-bold text-xs" style="background-color:#e91e63;">
+                                        Düzenle
+                                    </a>
+
+                                </span>
+                                <span>
+                                    <a onclick="deleteto(@item.Id)" class="btn textyazi text-white font-weight-bold text-xs" style="background-color:#e91e63;">
+                                        Sil
+                                    </a>
+                                </span>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+            <tr>
+                <td colspan="6">
+                    <div class="alert text-center text-white" style="background-color:#e91e63;">Kayıtlı rol bulunmamaktadır.</div>
+                </td>
+            </tr>
+                    }
+        </div>
+        </td>
+        </tr>
+    </tbody>
+</table>

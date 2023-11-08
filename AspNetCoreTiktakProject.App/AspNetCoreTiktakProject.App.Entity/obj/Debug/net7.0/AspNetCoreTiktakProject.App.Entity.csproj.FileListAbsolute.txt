@@ -1,0 +1,81 @@
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.deps.json
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.AssemblyInfoInputs.cache
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.AssemblyInfo.cs
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\refint\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\Nimetullah Baran\source\repos\Asp.netcore MVC\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\ref\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.deps.json
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.AssemblyInfoInputs.cache
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.AssemblyInfo.cs
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\refint\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\Nimetullah Baran\Desktop\yedek proje\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\ref\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.deps.json
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.csproj.AssemblyReference.cache
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.AssemblyInfoInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.AssemblyInfo.cs
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.csproj.CoreCompileInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\refint\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\ref\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.deps.json
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.AssemblyInfoInputs.cache
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.AssemblyInfo.cs
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\refint\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\Nimetullah Baran\Desktop\YUŞAPROJE\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\ref\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.deps.json
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.csproj.AssemblyReference.cache
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.AssemblyInfoInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.AssemblyInfo.cs
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.csproj.CoreCompileInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\refint\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\yusam\OneDrive\Masaüstü\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\ref\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.deps.json
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.csproj.AssemblyReference.cache
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.AssemblyInfoInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.AssemblyInfo.cs
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.csproj.CoreCompileInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\refint\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App (2)\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\ref\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.deps.json
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\bin\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.csproj.AssemblyReference.cache
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.AssemblyInfoInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.AssemblyInfo.cs
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.csproj.CoreCompileInputs.cache
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\refint\AspNetCoreTiktakProject.App.Entity.dll
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\AspNetCoreTiktakProject.App.Entity.pdb
+C:\Users\yusam\OneDrive\Masaüstü\KURS\Yüşa-Nimetullah-Kayra\AspNetCoreTiktakProject.App\AspNetCoreTiktakProject.App.Entity\obj\Debug\net7.0\ref\AspNetCoreTiktakProject.App.Entity.dll

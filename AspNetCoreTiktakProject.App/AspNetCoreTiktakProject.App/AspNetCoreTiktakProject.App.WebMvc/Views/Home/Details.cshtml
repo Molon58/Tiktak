@@ -1,0 +1,179 @@
+﻿@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_LayoutTiktak.cshtml";
+}
+
+<body>
+
+    <style>
+        
+        .kavis{
+            border:5px solid #e82454;
+            border-radius:9px;
+            
+            
+        }
+    </style>
+
+
+
+
+    <script>
+        function hideObject(id, hiddenCookie) {
+            var element = document.getElementById(id);
+            element.style.display = 'none';
+            setCookie(hiddenCookie, "true", 365);
+        }
+
+        function showObject(id, hiddenCookie) {
+            var element = document.getElementById(id);
+            element.style.display = 'block';
+            deleteCookie(hiddenCookie);
+        }
+
+        window.onload = function () {
+            if (getCookie("nesneHidden") === "true") {
+                hideObject('nesne', 'nesneHidden');
+            }
+
+            if (getCookie("nesne2Hidden") === "true") {
+                hideObject('nesne2', 'nesne2Hidden');
+            }
+        }
+
+        window.onresize = function () {
+            if (window.innerWidth <= 1867) {
+                hideObject('nesne', 'nesneHidden');
+                hideObject('nesne2', 'nesne2Hidden');
+            } else {
+                showObject('nesne', 'nesneHidden');
+                showObject('nesne2', 'nesne2Hidden');
+            }
+        }
+
+        // Cookie işlemleri için setCookie ve deleteCookie fonksiyonlarını tanımlamalısınız
+        // Bu fonksiyonlar tarayıcıda çerez oluşturup silme işlemlerini gerçekleştirir.
+
+        function setCookie(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        }
+
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        function deleteCookie(name) {
+            document.cookie = name + '=; Max-Age=-99999999;';
+        }
+    </script>
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header">
+        <h1 class="display-3 text-uppercase fot mb-3">Home</h1>
+        <div class="d-inline-flex text-white">
+            <h6 class="text-uppercase m-0"><a class="text-dark" asp-action="Details" asp-controller="Home">Anasayfa</a></h6>
+            <h6 class="text-body m-0 px-3">/</h6>
+            <h6 class="text-uppercase text-body m-0">Detay</h6>
+        </div>
+    </div>
+
+
+
+    <!-- Page Header Start -->
+    <!-- Detail Start -->
+    <div class="container-fluid pt-5">
+        <div class="container pt-5 ">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 mb-5">
+                    <h1 class="display-4 text-uppercase mb-5 fot text-center">Mercedes Benz R3</h1>
+                    <div class="row mx-n2 mb-3">
+                        <div class="col-md-3 kavis">
+                            <img class="img-fluid w-100 border:2px"s src="~/Templete/car-rental-html-template/img/gallery-1.jpg" alt="">
+                        </div>
+                        <div class="col-md-3 col-6 px-2 pb-2">
+                            <img class="img-fluid w-100" src="~/Templete/car-rental-html-template/img/gallery-2.jpg" alt="">
+                        </div>
+                        <div class="col-md-3 col-6 px-2 pb-2">
+                            <img class="img-fluid w-100" src="~/Templete/car-rental-html-template/img/gallery-3.jpg" alt="">
+                        </div>
+                        <div class="col-md-3 col-6 px-2 pb-2">
+                            <img class="img-fluid w-100" src="~/Templete/car-rental-html-template/img/gallery-4.jpg" alt="">
+                        </div>
+                    </div >
+                    <p class="text pt - 5 py - 5 text-black">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+                    <div class="row pt-2">
+                        <div class="col-md-3 col-6 mb-2">
+                            <i class="fa fa-car  fot mr-2 fot"></i>
+                            <span>Model: 2015</span>
+                        </div>
+                        <div class="col-md-3 col-6 mb-2">
+                            <i class="fa fa-cogs fot mr-2 fot"></i>
+                            <span>Automatic</span>
+                        </div>
+                        <div class="col-md-3 col-6 mb-2">
+                            <i class="fa fa-road fot mr-2 fot"></i>
+                            <span>20km/liter</span>
+                        </div>
+                        <div class="col-md-3 col-6 mb-2">
+                            <i class="fa fa-eye fot mr-2"></i>
+                            <span>GPS Navigation</span>
+                        </div>
+                        <div class="col-md-3 col-6 mb-2">
+                            <i class="fa fa-car fot mr-2"></i>
+                            <span>Model: 2015</span>
+                        </div>
+                        <div class="col-md-3 col-6 mb-2">
+                            <i class="fa fa-cogs fot mr-2"></i>
+                            <span>Automatic</span>
+                        </div>
+                        <div class="col-md-3 col-6 mb-2">
+                            <i class="fa fa-road fot mr-2"></i>
+                            <span>20km/liter</span>
+                        </div>
+                        <div class="col-md-3 col-6 mb-2">
+                            <i class="fa fa-eye fot mr-2"></i>
+                            <span>GPS Navigation</span>
+                        </div>
+                        <div class="col-md-3 col-6 mb-2">
+                            <i class="fa fa-car fot mr-2"></i>
+                            <span>Model: 2015</span>
+                        </div>
+                        <div class="col-md-3 col-6 mb-2">
+                            <i class="fa fa-cogs fot mr-2"></i>
+                            <span>Automatic</span>
+                        </div>
+                        <div class="col-md-3 col-6 mb-2">
+                            <i class="fa fa-road fot mr-2"></i>
+                            <span>20km/liter</span>
+                        </div>
+                        <div class="col-md-3 col-6 mb-2">
+                            <i class="fa fa-eye  fot mr-2"></i>
+                            <span>GPS Navigation</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    
+    
+   
+
+
+
+</body>

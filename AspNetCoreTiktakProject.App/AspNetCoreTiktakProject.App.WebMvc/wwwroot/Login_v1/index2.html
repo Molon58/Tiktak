@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<title>Register V1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-pic js-tilt" data-tilt>
+					<img src="images/TIKTAK-SON.png" alt="IMG">
+				</div>
+
+				<form class="login100-form validate-form" enctype="multipart/form-data" method="post">
+					<span class="login100-form-title" style="color:#e82454">
+						Üye Kayıt
+					</span>
+					<div class="wrap-input100 validate-input" data-validate = "Lütfen adınızı girin">
+						<input class="input100" type="text" name="ad" placeholder="Ad">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Lütfen soyadınızı girin">
+						<input class="input100" type="text" name="soyad" placeholder="Soyad">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Lütfen geçerli e-posta girin: ex@abc.xyz">
+						<input class="input100" type="text" name="email" placeholder="Email">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Lütfen şifrenizi girin">
+						<input class="input100" type="password" name="pass" placeholder="Şifre">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Lütfen şifrenizi tekrar girin">
+						<input class="input100" type="password" name="pass" placeholder="Şifre Tekrarı">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input " data-validate = "Lütfen adres bilgilerinizi girin">
+						<textarea class="input100 py-5" name="adres" id="adres" cols="30" placeholder="Adres"></textarea>
+						<span class="focus-input100 "></span>
+						<span class="symbol-input100 ">
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input py-3 ml-3 text-left ">
+						<label style="color:#e82454" for="resim"><h6><b>Arkalı Önlü Ehliyet Resmi</b></h6></label>
+						<input class="py-1"  name="resim" multiple="multiple" type="file" required>
+					</div>
+					<span class="login100-form-title py-5" style="color:#e82454">
+						Kart Bilgileri
+					</span>
+					<div class="wrap-input100 validate-input" data-validate = "Lütfen kart sahibi bilgilerinizi girin">
+						<input class="input100" type="text" name="kad" placeholder="Kart Sahibinin Adı">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Lütfen kart no bilgilerinizi girin">
+						<input class="input100" type="text" name="kno" maxlength="19" placeholder="XXXX-XXXX-XXXX-XXXX">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Lütfen kart cvv bilgilerinizi girin">
+						<input class="input100" type="text" name="cvv" maxlength="3" placeholder="CVV">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input py-3 ml-3 ">
+					<input class="pt-5" type=checkbox name=chk value="chk" required> Üyelik Sözleşmesi şartlarını okudum ve kabul ediyorum.
+				</div>
+					
+					<div class="container-login100-form-btn py-3">
+						<button class="login100-form-btn">
+							Kayıt Ol
+						</button>
+					</div>
+
+					<div class="p-t-12">
+
+						<a class="txt2 text-left ml-2" href="#">
+							<i class="fa fa-long-arrow-left m-l-5" aria-hidden="true"></i>
+							Geri Dön
+						</a>
+					
+							<a class="txt2 text-right ml-5 pl-4 " href="#">
+								Giriş Yap
+								<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+							</a>
+					</div>
+					<br><br>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>

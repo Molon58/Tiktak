@@ -1,0 +1,111 @@
+﻿@model RegisterViewModel
+@{
+	ViewData["Title"] = "Register";
+	Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<div class="limiter">
+	<div class="container-login100">
+		<div class="wrap-login100">
+			<div class="login100-pic js-tilt" data-tilt>
+				<img src="~/Login_v1/images/TIKTAK-SON.png" alt="IMG">
+			</div>
+
+			<form asp-action="Register" asp-controller="Account" method="post" class="login100-form" enctype="multipart/form-data">
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<span class="login100-form-title" style="color:#e82454">
+					Üye Kayıt
+				</span>
+				<div class="form-group wrap-input100">
+					<label asp-for="FirstName" class="control-label"></label>
+					<input asp-for="FirstName" class="form-control input100">
+					<span asp-validation-for="FirstName" class="text-danger"></span>
+				</div>
+				<div class="form-group wrap-input100">
+					<label asp-for="LastName" class="control-label"></label>
+					<input asp-for="LastName" class="form-control input100">
+					<span asp-validation-for="LastName" class="text-danger"></span>
+				</div>
+				<div class="form-group wrap-input100">
+					<label asp-for="Email" class="control-label"></label>
+					<input asp-for="Email" class="form-control input100">
+					<span asp-validation-for="Email" class="text-danger"></span>
+				</div>
+				<div class="form-group wrap-input100">
+					<label asp-for="Password" class="control-label"></label>
+					<input asp-for="Password" class="form-control input100">
+					<span asp-validation-for="Password" class="text-danger"></span>
+				</div>
+				<div class="form-group wrap-input100">
+					<label asp-for="ConfirmPassword" class="control-label"></label>
+					<input asp-for="ConfirmPassword" class="form-control input100">
+					<span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+				</div>
+				<div class="form-group wrap-input100">
+					<label asp-for="Address" class="control-label"></label>
+					<textarea asp-for=Address class="form-control input100 py-5" cols="30"></textarea>
+					<span asp-validation-for="Address" class="text-danger"></span>
+				</div>
+				<div class="form-group wrap-input100 py-3 ml-3 text-left ">
+					<label asp-for="DriverLicence" class="control-label" style="color:#e82454"></label>
+					<input asp-for=DriverLicence class="form-control py-1" type="file" name="formFile">
+					<span asp-validation-for="DriverLicence" class="text-danger"></span>
+				</div>
+				<span class="login100-form-title py-5" style="color:#e82454">
+					Kart Bilgileri
+				</span>
+				<div class="form-group wrap-input100">
+					<label asp-for="CardNumber" class="control-label"></label>
+					<input asp-for="CardNumber" class="form-control input100" maxlength="19">
+					<span asp-validation-for="CardNumber" class="text-danger"></span>
+				</div>
+				<div class="form-group wrap-input100">
+					<label asp-for="CardFullName" class="control-label"></label>
+					<input asp-for="CardFullName" class="form-control input100">
+					<span asp-validation-for="CardFullName" class="text-danger"></span>
+				</div>
+				<div class="form-group wrap-input100">
+					<label asp-for="ExpireDate" class="control-label"></label>
+					<input asp-for="ExpireDate" class="form-control input100" maxlength="19">
+					<span asp-validation-for="ExpireDate" class="text-danger"></span>
+				</div>
+				<div class="form-group wrap-input100">
+					<label asp-for="CvvNumber" class="control-label"></label>
+					<input asp-for="CvvNumber" class="input100" maxlength="3">
+					<span asp-validation-for="CvvNumber" class="text-danger"></span>
+				</div>
+
+				<div class="form-group wrap-input100 py-3 ml-3 ">
+					<input class="pt-5" type=checkbox name=chk value="chk" required> Üyelik Sözleşmesi şartlarını okudum ve kabul ediyorum.
+				</div>
+
+				<div class="container-login100-form-btn py-3">
+					<button class="login100-form-btn">
+						Kayıt Ol
+					</button>
+				</div>
+
+				<div class="p-t-12">
+
+					<a class="txt2 text-left ml-2" asp-action="Index" asp-controller="Home">
+						<i class="fa fa-long-arrow-left m-l-5" aria-hidden="true"></i>
+						Geri Dön
+					</a>
+
+					<a class="txt2 text-right ml-5 pl-4 " asp-action="Login" asp-controller="Account">
+						Giriş Yap
+						<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+					</a>
+				</div>
+				<br><br>
+			</form>
+		</div>
+	</div>
+</div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}
+

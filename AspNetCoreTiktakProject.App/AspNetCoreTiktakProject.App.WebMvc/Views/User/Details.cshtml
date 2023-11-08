@@ -1,0 +1,65 @@
+﻿@model UserViewModel
+@{
+    ViewData["Title"] = "Kullanıcı Detay";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<div class="row min-vh-80">
+    <div class="col-6 mx-auto">
+        <div class="card mt-4">
+            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                    <h6 class="text-white text-capitalize ps-3">Kullanıcı Detay</h6>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="container-fluid">
+                    <div class="col-lg-12 mb-2">
+                        <form>
+                            <div class="row">
+                                <h5 class="card-title pb-3" style="color: #e82454;">Kişisel Bilgiler</h5>
+                                <div class="col-6 form-group">
+                                    <input type="text" class="form-control p-4" placeholder="@Model.FirstName" readonly>
+                                </div>
+                                <div class="col-6 form-group">
+                                    <input type="text" class="form-control p-4" placeholder="@Model.LastName" readonly>
+                                </div>
+                                <div class="col-6 form-group">
+                                    <input type="email" class="form-control p-4" placeholder="@Model.Email" readonly>
+                                </div>
+                                <div class="form-group pb-5">
+                                    <textarea class="form-control py-3 px-4" rows="5" placeholder="@Model.Address" readonly></textarea>
+                                </div>
+                                <h5 class="card-title pb-3" style="color: #e82454;">Kredi Kartı Bilgileri</h5>
+                                <div class="col-4 form-group">
+                                    <input type="text" class="form-control p-4" placeholder="@Model.CardFullName" readonly>
+                                </div>
+                                <div class="col-4 form-group">
+                                    <input type="text" class="form-control p-4" placeholder="@Model.CardNumber" readonly>
+                                </div>
+                                <div class="col-4 form-group pb-5">
+                                    <input type="text" class="form-control p-4" placeholder="@Model.CvvNumber" readonly>
+                                </div>
+                                <h5 class="card-title pb-3 pt-5" style="color: #e82454;">Ehliyet Bilgisi</h5>
+                                <div class="form-group">
+                                    <img src="@Model.DriverLicence" class="card-img-top pb-5" alt="...">
+                                </div>
+                                <div class="yazi">
+                                    <br>
+                                    <a asp-action="Index" asp-controller="User" class="btn text-white textyazi font-weight-bold text-xs" style="background-color:#e91e63;">
+                                        Geri Dön
+                                    </a>
+                                   
+                                    <a asp-action="Edit" asp-controller="User" asp-route-id="@Model.Id" class="btn text-white textyazi font-weight-bold text-xs" style="background-color:#e91e63;">
+                                        Düzenle
+                                    </a>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

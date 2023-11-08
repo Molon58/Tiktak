@@ -1,0 +1,76 @@
+﻿@model UserViewModel
+@{
+    ViewData["Title"] = "Kullanıcı Düzenle";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container-fluid py-4">
+    <div class="row min-vh-80">
+        <div class="col-6 mx-auto">
+            <div class="card mt-4">
+                <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                        <h6 class="text-white text-capitalize ps-3">Kullanıcı Düzenle</h6>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="container-fluid">
+                        <div class="col-lg-12 mb-2">
+                            <form asp-action="Edit" asp-controller="User" method="post">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="row">
+                                    <h5 class="card-title pb-3" style="color: #e82454;">Kişisel Bilgiler</h5>
+                                    <div class="col-6 form-group">
+                                        <label asp-for="FirstName" class="form-label"></label>
+                                        <input asp-for="FirstName" type="text" class="form-control p-4" value="@Model.FirstName">
+                                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <label asp-for="LastName" class="form-label"></label>
+                                        <input asp-for="LastName" type="text" class="form-control p-4" value="@Model.LastName">
+                                        <span asp-validation-for="LastName" class="text-danger"></span>
+                                    </div>
+                                    <div class="col-6 form-group">
+                                        <label asp-for="Email" class="form-label"></label>
+                                        <input asp-for="Email" type="email" class="form-control p-4" value="@Model.Email">
+                                        <span asp-validation-for="Email" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group pb-5">
+                                        <label asp-for="Address" class="form-label"></label>
+                                        <textarea asp-for="Address" class="form-control py-3 px-4" rows="5" placeholder="@Model.Address"></textarea>
+                                        <span asp-validation-for="Address" class="text-danger"></span>
+                                    </div>
+                                    <h5 class="card-title pb-3" style="color: #e82454;">Kredi Kartı Bilgileri</h5>
+                                    <div class="col-4 form-group">
+                                        <input type="text" class="form-control p-4" value="@Model.CardFullName" readonly>
+                                    </div>
+                                    <div class="col-4 form-group">
+                                        <input type="text" class="form-control p-4" value="@Model.CardNumber" readonly>
+                                    </div>
+                                    <div class="col-4 form-group pb-5">
+                                        <input type="text" class="form-control p-4" value="@Model.CvvNumber" readonly>
+                                    </div>
+                                    <h5 class="card-title pb-3 pt-5" style="color: #e82454;">Ehliyet Bilgisi</h5>
+                                    <div class="form-group">
+                                        <img src="@Model.DriverLicence" class="card-img-top pb-5" alt="...">
+                                    </div>
+                                    <div class="yazi">
+                                        <div class="mt-2 text-left">
+                                        <br> <a asp-action="Index" asp-controller="User" class="btn text-white textyazi font-weight-bold text-xs" style="background-color:#e91e63;">
+                                            İptal
+                                        </a>
+                                        
+                                        
+                                            <input class="btn text-white" type="submit" value="Kaydet" style="background-color:#e91e63;" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

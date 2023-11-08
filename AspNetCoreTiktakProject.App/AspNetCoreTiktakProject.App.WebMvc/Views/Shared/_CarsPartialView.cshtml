@@ -1,0 +1,52 @@
+﻿@model List<CarPropertyViewModel>
+<table class="table align-items-center mb-0" id="tablo">
+	<thead>
+		<tr>
+			<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Marka</th>
+			<th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Model</th>
+			<th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Plaka</th>
+			<th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Hizmet</th>
+			<th class="text-secondary opacity-7"></th>
+		</tr>
+	</thead>
+	<tbody>
+
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					<div class="d-flex px-2 py-1">
+						<div>
+							<img src="@item.ImageUrl" class="avatar avatar-sm me-3 border-radius-lg" alt="user1">
+						</div>
+						<div class="d-flex flex-column justify-content-center">
+							<h6 class="mb-0 text-sm">@item.Brand</h6>
+						</div>
+					</div>
+				</td>
+				<td>
+					<p class="text-xs font-weight-bold mb-0">@item.Model</p>
+				</td>
+				<td class="align-middle text-center">
+					<span class="text-secondary text-xs font-weight-bold">@item.Plaque</span>
+				</td>
+
+
+				<td class="align-middle text-center text-sm">
+					<span> <a asp-controller="Car" asp-action="IsActive" asp-route-id="@item.Id" class="btn btn-outline-@(item.IsActive==true?"success":"danger")">@(item.IsActive == true ? "Aktif" : "Pasif")</a></span>
+				</td>
+
+				<td class="align-middle">
+				<td class="align-end ">
+					<a asp-action="Details" asp-controller="Car" asp-route-id="@item.Id" class="btn text-white textyazi font-weight-bold text-xs" style="background-color:#e91e63;">
+						Detay
+					</a>
+					<a onclick="deleteto(@item.Id)" class="btn text-white textyazi font-weight-bold text-xs" style="background-color:#e91e63;">
+						Sil
+					</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+

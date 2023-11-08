@@ -1,0 +1,42 @@
+﻿@model IEnumerable<RoleViewModel>
+@{
+    ViewData["Title"] = "Roller";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container-fluid py-4">
+    <a asp-action="Create" asp-controller="Role" class="textyazi4 font-weight-bold text-xs">Yeni Rol Ekle +</a>
+    <div class="row">
+        <div class="col-12">
+            <div class="card my-4">
+                <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                        <h6 class="text-white text-capitalize ps-3">Roller</h6>
+                    </div>
+                    <div class="table-responsive p-0">
+                        <partial name="_RolesPartialView" model="@Model" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @section Scripts{
+        <script>
+            function deleteto(id) {
+                $.ajax({
+                    //type: 'GET',
+                    url: '/Role/Delete/' + id,
+                    success: function (result) {
+                        $("#tablo").html(result);
+
+                    },
+                    error: function (xhr, status, error) {
+
+                        console.error(error);
+                    }
+                });
+            };
+        </script>
+    }
+
+

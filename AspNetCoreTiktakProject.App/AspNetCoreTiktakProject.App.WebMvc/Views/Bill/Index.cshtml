@@ -1,0 +1,40 @@
+﻿@model List<BillViewModel>
+@{
+    ViewData["Title"] = "Faturalar";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="container-fluid py-4">
+    <div class="row">
+        @{
+            var user = Model.FirstOrDefault();
+        }
+        <div class="col-md-12 mt-4">
+            <div class="card">
+                <div class="card-header pb-0 px-3">
+                    <h6 class="mb-0">Kullanıcıların Fatura Bilgileri</h6>
+                </div>
+                <div class="card-body pt-4 p-3">
+                  
+                    <ul class="list-group">
+                        <li class="list-group-item border-0 d-flex p-4 mb-2 bg-gray-100 border-radius-lg">
+                            <div class="d-flex flex-column">
+                                    <span class="mb-2 text-xs">Fatura Tarihi <span class="text-dark font-weight-bold ms-sm-2">@user.OccuredDate </span></span>
+                                @* <span class="mb-2 text-xs">Soyadı: <span class="text-dark font-weight-bold ms-sm-2"></span></span>
+                                <span class="mb-2 text-xs">Email: <span class="text-dark ms-sm-2 font-weight-bold">@item.Email</span></span> *@
+                            </div>
+                            <div class="py-3">
+                                    <a asp-action="Details" asp-controller="Bill" asp-route-id="@user.CustomerId" class="textyazi3 font-weight-bold text-xs px-5">
+                                    Detay
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+

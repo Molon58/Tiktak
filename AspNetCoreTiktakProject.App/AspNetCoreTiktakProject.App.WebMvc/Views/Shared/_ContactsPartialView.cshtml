@@ -1,0 +1,47 @@
+﻿@model List<ContactViewModel>
+
+<table class="table align-items-center mb-0" id="tablo">
+    <thead>
+        <tr>
+            <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7">Ad</th>
+            <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7">Email</th>
+            <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">Konu</th>
+            <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Mesaj</th>
+            <th class="text-uppercase text-secondary text-xs font-weight-bolder opacity-7 ps-2">Tarih</th>
+            <th class="text-secondary opacity-7"></th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    <div class="d-flex px-2 py-1">
+                        <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-secondary">@item.Name</h6>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <h6 class="mb-0 text-secondary">@item.Email</h6>
+                </td>
+                <td>
+                    <h6 class="mb-0 text-secondary">@item.Subject</h6>
+                </td>
+                <td class="align-middle text-center">
+                    <textarea class="mb-0 text-secondary" cols="85" rows="4">@item.Message</textarea>
+                </td>
+                <td>
+                    <h6 class="mb-0 text-secondary">@item.CreatedDate</h6>
+                </td>
+                <td class="align-middle">
+                    <a onclick="deleteto('@item.Id')" class="btn text-white textyazi font-weight-bold text-xs" style="background-color:#e91e63;">
+                        Sil
+                    </a>
+                </td>
+            </tr>
+            }
+        
+    </tbody>
+</table>

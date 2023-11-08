@@ -1,0 +1,85 @@
+﻿@model UsersInOrOutViewModel
+@{
+    ViewData["Title"] = "Rol Düzenle";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="container-fluid py-4">
+    <div class="row">
+        <form asp-action="Edit" asp-controller="Role" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" name="RoleId" value="@Model.Role.Id" />
+            <input type="hidden" name="RoleName" value="@Model.Role.Name" />
+            <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                <h6 class="text-white text-capitalize ps-3">@Model.Role.Name rolünde bulunan kullanıcılar</h6>
+            </div>
+            <table class="table table-bordered ">
+                <thead>
+                    <tr>
+                        <th>Ad</th>
+                        <th>Email</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.UsersInRole.Count() > 0)
+                    {
+                        @foreach (var user in Model.UsersInRole)
+                        {
+                            <tr>
+                                <td>@user.FirstName</td>
+                                <td>@user.Email</td>
+                                <td>
+
+                                    <input type="checkbox" name="UserIdsToDelete" value="@user.Id">  &ensp; Rol Al
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="2">Role ait kullanıcı bulunmamaktadır.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <br /><hr /><br />
+            <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                <h6 class="text-white text-capitalize ps-3">@Model.Role.Name rolünde olmayan kullanıcılar</h6>
+            </div>
+            <table class="table table-bordered ">
+                <thead>
+                    <tr>
+                        <th>Ad</th>
+                        <th>Email</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.UsersOutRole.Count() > 0)
+                    {
+                        @foreach (var user in Model.UsersOutRole)
+                        {
+                            <tr>
+                                <td>@user.FirstName</td>
+                                <td>@user.Email</td>
+                                <td>
+                                    <input type="checkbox" name="UserIdsToAdd" value="@user.Id"> &ensp; Rol Ver
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="2">Bütün kullanıcılar bu role atanmıştır.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div class="mt-2 text-left">
+                <input class="btn text-white" type="submit" value="Kaydet" style="background-color:#e91e63;" />
+            </div>
+        </form>
+    </div>
+</div>
